@@ -214,5 +214,21 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "image-multi",
+    "fields": [
+      {
+        "component": "reference",
+        "name": "image",
+        "label": "Image",
+        "multi": true
+      },
+      {
+        "component": "text",
+        "name": "imageAlt",
+        "label": "Alt Text"
+      }
+    ]
   }
 ]
